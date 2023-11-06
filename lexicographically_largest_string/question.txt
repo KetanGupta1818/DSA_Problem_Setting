@@ -1,0 +1,37 @@
+Given a string s of length n, form a new string t by following the given operation
+Operation -> Select any substring of length 2 and append it to the end of t
+Find the lexicographically largest string t possible of maximum length.
+
+Input Format
+int n
+string s
+
+n -> The length of string s
+s -> string s
+
+Output Format 
+string t
+
+t -> answer string 
+
+Examples
+1)
+Input
+4
+abba
+Output 
+bbaa
+
+2)
+Input 
+5
+abbaa
+Output
+bbaa
+
+3)
+Input 
+10
+abzazabcde
+Output
+zazadebcab
